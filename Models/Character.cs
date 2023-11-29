@@ -18,5 +18,7 @@ namespace dotnet_rpg.Models
         public bool IsDeleted { get; set; } = false;
         public DateTime DateCreated { get; set; }
         public User? User { get; set; }
+        public Weapon? Weapon { get; set; }
+        public List<Skill>? Skills { get; set; }
     }
 }
